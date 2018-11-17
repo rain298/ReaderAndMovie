@@ -1,0 +1,51 @@
+<view>
+  	<!-- 是否显示面板指示点, 设置自动显示以及时间间隔 -->
+  	<swiper indicator-dots='true' autoplay='true' interval='2000'>
+    <swiper-item>
+        <image src='/images/wx.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+        <image src='/images/iqiyi.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+        <image src='/images/vr.jpg'></image>
+    </swiper-item>
+  	</swiper>
+  	<view class='post-container'>
+      	<view class='post-author-date'>
+          <image class='post-author' src='/images/avatar/1.jpg'></image>
+          <text class='post-date'>Nov 26 2018</text>
+      	</view>
+      	<text class='post-tittle'>正是月黑风高夜</text>
+      	<image class='post-image' src='/images/post/2.jpg'></image>
+      	<text class='post-content'>花雨下千年的盟约，聚散不由、痴缠不休，在枫桥夜泊的故事里若隐若现，仿佛落入破灭的时空里独自品味着消逝的黄昏。
+
+悲凉早已化作飞雪的幻影，在秋华落尽时许下誓言。
+	  	</text >
+      	<view class='post-like'>
+          	<image class='post-like-image' src='/images/icon/3.jpg'></image>
+          	<text class='post-like-font'>92</text>
+          	<image class='post-like-image' src='/images/icon/2.jpg'></image>
+          	<text class='post-like-font'>65</text>
+      	</view>
+  	</view>
+
+	<view class='post-container'>
+      	<view class='post-author-date'>
+          <image class='post-author' src='/images/avatar/2.jpg'></image>
+          <text class='post-date'>Nov 26 2018</text>
+      	</view>
+      	<text class='post-tittle'>今天也是充满希望的一天</text>
+      	<image class='post-image' src='/images/post/1.jpg'></image>
+      	<text class='post-content'>
+当凛冬安下她的灵魂，散下她的梦魇后，遗留在昨日繁华里的所有爱恨情仇，将会被一一埋葬。
+
+碧落黄泉，阴阳两隔，不再纠结，等待下一场轮回的上映，再写一段没有结局的故事;再话一场遍体鳞伤的桑麻。		  	</text >
+      	<view class='post-like'>
+          	<image class='post-like-image' src='/images/icon/2.jpg'></image>
+          	<text class='post-like-font'>92</text>
+          	<image class='post-like-image' src='/images/icon/3.jpg'></image>
+          	<text class='post-like-font'>65</text>
+      	</view>
+  	</view>
+</view>
