@@ -4,7 +4,7 @@
   <!-- 可以嵌套 -->
   <!-- <text class='user-name'><text style='color:red'>Hello</text>, World</text> -->
   <text class='user-name'>Hello, World</text>
-  <view class='moto-container'>
+  <view class='moto-container' bindtap='onTab'>
     <text class='moto'>开启小程序之旅</text>
   </view>
 </view>
