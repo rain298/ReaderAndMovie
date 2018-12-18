@@ -1,4 +1,4 @@
-/* 把容器编程一种弹性的模型 */
+/* 把容器变成一种弹性的模型 */
 .container{
   display: flex;
   flex-direction: column;
