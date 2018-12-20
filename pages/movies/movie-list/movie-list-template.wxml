@@ -4,7 +4,7 @@
         <view class='inner-container'>
             <view class='movie-head'>
                 <text>{{categoryTitle}}</text>
-                <view class='more'>
+                <view catchtap='onMoreTap' class='more' data-category="{{categoryTitle}}">
                     <text class='more-text'>更多</text>
                     <image class='more-img' src='/images/movie/step.png'></image>
                 </view>
@@ -13,7 +13,6 @@
                 <block wx:for="{{movies}}" wx:for-item="movie">
                     <template is="movieTemplate" data="{{...movie}}" />
                 </block>
-                <!-- <template is="movieTemplate" /> -->
             </view>
         </view>
     </view>
