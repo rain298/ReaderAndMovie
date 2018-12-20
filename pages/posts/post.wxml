@@ -2,15 +2,15 @@
 
 <view>
     <!-- 是否显示面板指示点, 设置自动显示以及时间间隔 -->
-    <swiper vertical='{{false}}' indicator-dots='true' autoplay='true' interval='2000'>
+    <swiper catchtap='onSwiperTap' vertical='{{false}}' indicator-dots='true' autoplay='true' interval='2000'>
         <swiper-item>
-            <image src='/images/wx.jpg'></image>
+            <image src='/images/wx.jpg' data-postId='0'></image>
         </swiper-item>
         <swiper-item>
-            <image src='/images/iqiyi.jpg'></image>
+            <image src='/images/iqiyi.jpg' data-postId='0'></image>
         </swiper-item>
         <swiper-item>
-            <image src='/images/vr.jpg'></image>
+            <image src='/images/vr.jpg' data-postId='0'></image>
         </swiper-item>
     </swiper>
 	<!-- block 标签可以理解为一个括号 -->

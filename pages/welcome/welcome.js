@@ -4,8 +4,13 @@ Page({
 		// 	url: '../posts/post'
 		// });
 
-		wx.redirectTo({
-			url: '../posts/post'
+		// wx.redirectTo({
+		// 	url: '../posts/post'
+		// })
+
+		// 路由API
+		wx.switchTab({
+			url: '../posts/post',
 		})
 
 		// wx.navigateTo({
